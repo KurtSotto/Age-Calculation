@@ -21,11 +21,6 @@ p{
     --light-grey: hsl(0, 0%, 86%);
 }
 
-body{
-    margin: 0;
-    background-color: rgb(240, 240, 240);
-}
-
 .error{
     color: var(--red);
     font-size: .8rem;
