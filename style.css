@@ -39,7 +39,6 @@ main{
     background-color: white;
     border-radius: 20px;
     border-bottom-right-radius: 200px;
-    box-shadow: 5px 5px 45px rgba(0, 0, 0, .1);
     width: 90%;
     padding: 48px;
 }
