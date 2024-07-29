@@ -1,12 +1,15 @@
 const date = [
     {
-        type: 'day'
+        type: 'day',
+        placeholder: 'DD'
     },
     {
-        type: 'month'
+        type: 'month',
+        placeholder: 'MM'
     },
     {
-        type: 'year'
+        type: 'year',
+        placeholder: 'YYYY'
     }
 ]
 
@@ -15,7 +18,7 @@ date.forEach(date => {
     inputTags += `
         <div class="d-flex flex-column text-uppercase">
         <label id="${date.type}-label">${date.type}</label>
-        <input type="number" name="${date.type}" id="${date.type}" placeholder="DD" class="rounded p-2 fs-3 fw-bold mt-2">
+        <input type="number" name="${date.type}" id="${date.type}" placeholder="${date.placeholder}" class="rounded p-2 fs-3 fw-bold mt-2">
         <p class="error" id="${date.type}-error"></p>
       </div>
     `
